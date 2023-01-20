@@ -7,7 +7,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-09T08:18:10.494Z",
         tags:["Photography"],
         category:["Photography"],
-        image:"/images/camera.jpg",
+        image:"https://picsum.photos/724/300?random=1",
         author:"Jeanne Ballard"
     },
     {
@@ -17,7 +17,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-10T07:47:21.553Z",
         tags:["Programming","Python","Tips"],
         category:["Programming"],
-        image:"/images/software-developer.jpg",
+        image:"https://picsum.photos/500/300?random=1",
         author:"Jeanne Ballard"
     },
     {
@@ -27,7 +27,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-11T08:29:39.860Z",
         tags:["Advantage","Computer Science","Tech"],
         category:["Computer Science"],
-        image:"/images/computer.jpg",
+        image:"https://picsum.photos/700/300?random=1",
         author:"Emilio Tate"
     },
     {
@@ -37,7 +37,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-12T08:05:53.939Z",
         tags:["Health","Likely","Didn't Know"],
         category:["Health"],
-        image:"/images/vegetables.jpg",
+        image:"https://picsum.photos/724/324?random=1",
         author:"Curtis Lopez"
     },
     {
@@ -47,7 +47,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-13T08:07:38.708Z",
         tags:["Health","Misconceptions"],
         category:["Health"],
-        image:"/images/health.jpg",
+        image:"https://picsum.photos/600/300?random=1",
         author:"DR. Jeffery Schwartz"
     },
     {
@@ -57,7 +57,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-15T08:14:33.826Z",
         tags:["15 facts","Photography","Jeanne Ballard facts"],
         category:["Photography"],
-        image:"/images/photographer.jpg",
+        image:"https://picsum.photos/450/300?random=1",
         author:"Jeanne Ballard"
     },
     {
@@ -67,7 +67,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-22T07:20:16.517Z",
         tags:["Blog","five","Secrets"],
         category:["Blog"],
-        image:"/images/blog-2.jpg",
+        image:"https://picsum.photos/624/300?random=1",
         author:"Rajdeep singh"
     },
     {
@@ -77,7 +77,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-22T07:20:16.517Z",
         tags:["Business Strategies","Business"],
         category:["Computer Science"],
-        image:"/images/technology.jpg",
+        image:"https://picsum.photos/624/300?random=1",
         author:"Emilio Tate"
     },
     {
@@ -87,7 +87,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-11-01T08:40:19.051Z",
         tags:["Photography","Photo"],
         category:["Photography"],
-        image:"/images/smartphone.jpg",
+        image:"https://picsum.photos/600/300?random=1",
         author:"Ashley Paul"
     },
     {
@@ -97,7 +97,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-02-08T08:54:26.105Z",
         tags:["Android","Smart Phone","Facts"],
         category:["Smart Phone"],
-        image:"/images/ios.jpg",
+        image:"https://picsum.photos/500/300?random=1",
         author:"Hannah Rivera"
     },
     {
@@ -107,7 +107,7 @@ let posts:Array<{ id:string,title: string, description: string,date: string, tag
         date:"2022-10-08T08:48:51.359Z",
         tags:["Android","Android Features"],
         category:["Android"],
-        image:"/images/android.jpg",
+        image:"https://picsum.photos/500/300?random=1",
         author:"Linda Pittman"
     },
 ]
