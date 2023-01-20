@@ -16,9 +16,9 @@ function Header() {
 
           <li>
 
-            <a href="/">
+            <Link href="/">
               <strong>Rajdeep Singh</strong>
-            </a>
+            </Link>
 
           </li>
 
@@ -38,8 +38,8 @@ function Header() {
 
           <li>
             <button id="theme-toggle" type="button"  className="theme-toggle-button" data-theme-switcher="light">
-              <MdNightlightRound className={color} id="theme-toggle-dark-icon" />
-              <MdWbSunny className={color} id="theme-toggle-light-icon"/>
+              <MdNightlightRound fill='white' className={color} id="theme-toggle-dark-icon" />
+              <MdWbSunny fill='black' className={color} id="theme-toggle-light-icon"/>
             </button>
           </li>
         </ul>
