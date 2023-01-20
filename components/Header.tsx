@@ -9,7 +9,7 @@ function Header() {
 
 
   return (
-    <main className="container">
+    <header className="container">
       <nav>
         <ul>
 
@@ -43,7 +43,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </main>
+    </header>
   );
 }
 
