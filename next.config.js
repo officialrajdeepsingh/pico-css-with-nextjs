@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['picsum.photos']
   },
+  basePath: "/pico-css-with-nextjs"
 }
 
 module.exports = nextConfig
