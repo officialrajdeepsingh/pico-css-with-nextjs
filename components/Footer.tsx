@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaTwitter, FaGithub } from "react-icons/fa";
 
-function Footer(props) {
+function Footer() {
     return (
-        <div className='container-fluid'>
+        <footer className='container-fluid'>
             <nav>
                 <ul>
                     <li>Copyright By Rajdeep singh</li>
@@ -17,7 +17,7 @@ function Footer(props) {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </footer>
     );
 }
 
