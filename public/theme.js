@@ -8,10 +8,7 @@ if (document.documentElement.getAttribute("data-theme") === "dark") {
     themeToggleLightIcon.classList.remove('hidden');
 }
 
-
 var themeToggleBtn = document.getElementById('theme-toggle');
-
-
 
 themeToggleBtn.addEventListener('click', function() {
    
