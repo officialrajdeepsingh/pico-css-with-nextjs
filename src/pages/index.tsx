@@ -2,12 +2,12 @@ import Card from 'components/Card';
 import dayjs from 'dayjs';
 import data from 'data/posts';
 
-export default function Home({posts}) {
+export default function Home({posts}:indexComponent ) {
   return (
     <main className="container">
 
       {
-        posts.map(item=> <Card 
+        posts.map( (item: indexPropsComponent) => <Card 
            
             key={item.id}
 
@@ -30,11 +30,32 @@ export default function Home({posts}) {
   )
 }
 
-export async function getStaticProps(context) {
-
-
+export async function getStaticProps() {
 
   return {
     props: { posts:data },
   }
+}
+
+interface indexComponent {
+  posts : {
+    [x: string]: any;
+    tags: string;
+    date: string;
+    title: string;
+    description: string;
+    image: string;
+    author: string;
+  }
+}
+
+interface indexPropsComponent {
+    id: string;
+    tags: string;
+    date: string;
+    title: string;
+    description: string;
+    image: string;
+    author: string;
+
 }
