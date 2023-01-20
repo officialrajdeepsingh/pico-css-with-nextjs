@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <Header />
             <Component {...pageProps} />
             <Footer/>
-            <Script src='/theme.js'/>
+            <Script src='/pico-css-with-nextjs/theme.js'/>
         </>
 
 
