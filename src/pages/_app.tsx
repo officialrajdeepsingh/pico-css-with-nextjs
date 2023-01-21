@@ -2,10 +2,8 @@ import '@picocss/pico'
 
 /*
 
-Enable custom theme
-
-import '../style/custom.css';
-import '../../poco.css';
+# Enable custom theme
+import '../style/theme.css';
 
 */
 
