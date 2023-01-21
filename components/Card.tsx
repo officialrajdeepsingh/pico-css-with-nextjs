@@ -5,7 +5,8 @@ import Image from 'next/image'
 
 function Card(props:cardComponent) {
 
-  let slug= props.title.toLowerCase().replaceAll(" ","-")
+  let slug = props.title.toLowerCase().replaceAll(" ","-")
+
   return (
     <article>
 
