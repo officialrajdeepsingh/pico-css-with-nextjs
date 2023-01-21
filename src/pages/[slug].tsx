@@ -5,10 +5,6 @@ import dayjs from 'dayjs';
 
 function Read({ post }: postComponent) {
 
-
-
-
-
   return (
     <div className='container'>
 
